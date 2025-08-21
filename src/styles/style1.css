@@ -1,0 +1,25 @@
+.inputTask{
+    border-radius:10px;
+    margin:20px;
+    width: 300px;
+    height: 30px;
+    border-color:white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.btn{
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    height: 40px;
+    border-color:white;
+    box-shadow: 5px rgba(0,0,0,0.2);
+}
+.delete_btn{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border-color:white;
+    float:right;
+    margin:10px;
+    box-shadow: 5px rgba(0,0,0,0.2);
+}
