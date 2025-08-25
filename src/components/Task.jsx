@@ -6,6 +6,7 @@ import TaskList from "./TaskList";
 
 function Task() {
   const [task, setTask] = useState({ name: "",date:null,time:null, done: false });
+  //task name is the identifier 
   const [tasklist, setTasklist] = useState([]);
   const completedTasks = tasklist.filter((task) => task.done).length;
   function handleSubmit(e) {
