@@ -15,6 +15,12 @@ export default function Form({ task, setTask, handleSubmit }) {
         value={task.date || ""}
         onChange={(e) => setTask({ ...task, date: e.target.value })}
       />
+      <input
+        type="time"
+        className="inputTask"
+        value={task.time || ""}
+        onChange={(e) => setTask({ ...task, time: e.target.value })}
+      />
       <button type="submit" className="btn">
         add task
       </button>

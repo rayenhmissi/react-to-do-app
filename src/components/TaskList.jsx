@@ -12,7 +12,7 @@ export default function TaskList({ tasklist, handleComplete, handleDelete }) {
             className={item.done ? styles.completed : ""}
             onClick={() => handleComplete(item)}
           >
-            {item.name}{" "}{item.date}
+            {item.name}{" "}{item.date}{" "}{item.time}
           </span>
           <span>
             <button className="delete_btn" onClick={() => handleDelete(item)}>
